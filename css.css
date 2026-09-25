@@ -1,0 +1,25 @@
+.bar_nav
+{
+    position : fixed ;
+    left : 50% ;
+}
+.w3-container
+{
+    position : fixed ;
+    left : 50% ;
+}
+
+.deuxc
+{
+    display : flex ; 
+    align-items : center;
+}
+
+.droite,.gauche
+{
+    width: 50%;
+}
+.gauche 
+{
+    width: 100%;
+}

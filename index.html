@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<title>portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="P:\SIN\DEV WEB\W3CSS\css.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<body class="w3-container">
+<section id="home">
+<div class="w3-container">
+</br>
+</div>
+
+<div class="w3-bar w3-black">
+  <a href="#home" class="w3-bar-item w3-button w3-mobile">Home</a>
+  <a href="#school" class="w3-bar-item w3-button w3-mobile">School</a>
+  <a href="#project" class="w3-bar-item w3-button w3-mobile">Project</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-mobile">Contact  - <i class="glyphicon glyphicon-envelope"></i></a>
+</div>
+
+</br></br>
+
+<div class="w3-card w3-container">
+  <h2>Lou Trubert</h2>
+  <p>Bonjour, voici mon Portfolio !</p>
+</div>
+<div class="w3-container"></br>
+
+  <div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://www.hamermanrouby.com/wp-content/uploads/2023/07/AXO.jpg" style="width:100%">
+  <img class="mySlides" src="https://www.bing.com/th/id/OIP.4rFTwuxVhosi-xwrIJCZOAAAAA?w=193&h=193&c=8&rs=1&qlt=90&o=6&pid=ImgAns&rm=2" style="width:70%" position="center">
+  <img class="mySlides" src="https://images.midilibre.fr/api/v1/images/view/615a70d63e45460fcd67e0e8/large/image.jpg?v=1" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</section>
+</br></br></br></br>
+
+
+<section id="school" class="pgrey">
+<div class="w3-panel w3-grey w3-round-xxlarge w3-center w3-xlarge">
+<p>Compétence</br></p>
+</div>
+</section>
+
+
+
+</br></br></br></br>
+
+
+<div class="w3-card w3-container">
+  <h2>Je sais faire quoi ?</h2>
+</br>
+  <p>Tout</p>
+</div>
+
+</br></br>
+
+
+
+</br></br></br></br>
+</br></br></br></br></br></br></br>
+
+</body>
+</html>
